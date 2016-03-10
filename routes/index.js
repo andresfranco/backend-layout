@@ -6,4 +6,9 @@ router.get('/', function(req, res, next) {
   res.render('layout', { title: 'Express' });
 });
 
+/* GET home page. */
+router.get('/layoutreact', function(req, res, next) {
+  res.render('layout_react', { title: 'Express' });
+});
+
 module.exports = router;
