@@ -12,3 +12,10 @@ router.get('/layoutreact', function(req, res, next) {
 });
 
 module.exports = router;
+
+router.get('/routertest', function(req, res, next) {
+  res.render('router_test', { title: 'Express' });
+});
+
+module.exports = router;
+
